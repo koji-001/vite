@@ -1,0 +1,9 @@
+@use '../../variables';
+
+.icon {
+  width: 16px;
+}
+.icon:hover {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}

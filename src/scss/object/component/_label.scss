@@ -1,0 +1,6 @@
+@use '../../variables';
+
+.label::before {
+  content: '●';
+  margin-right: 4px;
+}

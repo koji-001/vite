@@ -1,0 +1,9 @@
+@use '../../variables';
+
+.text {
+  color: #333;
+  line-height: 1.8;
+}
+.text:first-child {
+  color: red;
+}

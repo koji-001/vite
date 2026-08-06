@@ -1,0 +1,14 @@
+@use '../../variables';
+
+.image {
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+
+.image img:hover {
+  transform: scale(1.05);
+}

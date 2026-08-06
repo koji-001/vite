@@ -1,0 +1,9 @@
+@use '../../variables';
+
+.list li {
+  margin-bottom: 12px;
+}
+
+.list li:last-child {
+  margin-bottom: 0;
+}
