@@ -1,0 +1,16 @@
+@use '../../foundation/variables' as *;
+
+.p-header-navigation__list {
+  display: flex;
+}
+.p-header-navigation__link {
+  display: inline-block;
+  padding: 16px 8px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+}
+.p-header-navigation__link:hover {
+  color: $text-color;
+  background-color: $bg-color;
+}

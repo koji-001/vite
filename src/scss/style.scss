@@ -1,18 +1,22 @@
-@use 'variables';
-@use './layout/container';
-@use './fundation/base';
-@use './fundation/reset';
+@use './foundation/base';
+@use './foundation/mixin';
+@use './foundation/reset';
+@use './foundation/variables';
+
+@use './layout/footer';
+@use './layout/header';
+@use './layout/main';
+@use './layout/sidebar';
+
 @use './object/component/article';
 @use './object/component/article-text';
+@use './object/component/body';
 @use './object/component/box';
 @use './object/component/button';
 @use './object/component/card';
 @use './object/component/cards';
 @use './object/component/flex';
-@use './object/component/footer';
 @use './object/component/grid';
-@use './object/component/header';
-@use './object/component/header-list';
 @use './object/component/icon';
 @use './object/component/image';
 @use './object/component/important-message';
@@ -20,7 +24,6 @@
 @use './object/component/list';
 @use './object/component/link';
 @use './object/component/loading';
-@use './object/component/main';
 @use './object/component/message';
 @use './object/component/table';
 @use './object/component/test';
@@ -29,3 +32,6 @@
 @use './object/component/td';
 @use './object/component/th';
 @use './object/component/tr';
+
+@use './object/project/footer-navigation';
+@use './object/project/header-navigation';
