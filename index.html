@@ -6,24 +6,41 @@
     <meta name="description" content="HTMLの基本を紹介するサンプルページです。" />
     <title>HTMLの基本</title>
   </head>
-  <body>
-    <header class="header">
-      <nav class="header__navigation">
-        <ul class="header__list header-list">
-          <li class="header-list__item"><a href="#">ヘッダーリストアイテム</a></li>
-          <li class="header-list__item"><a href="#">ヘッダーリストアイテム</a></li>
-          <li class="header-list__item"><a href="#">ヘッダーリストアイテム</a></li>
+  <body class="body">
+    <header class="l-header">
+      <nav class="p-header-navigation">
+        <ul class="p-header-navigation__list">
+          <li class="p-header-navigation__item">
+            <a class="p-header-navigation__link" href="#"> ヘッダーリストアイテム </a>
+          </li>
+          <li class="p-header-navigation__item">
+            <a class="p-header-navigation__link" href="#"> ヘッダーリストアイテム </a>
+          </li>
+          <li class="p-header-navigation__item">
+            <a class="p-header-navigation__link" href="#"> ヘッダーリストアイテム </a>
+          </li>
         </ul>
       </nav>
-      <!-- /.header__navigation -->
     </header>
 
-    <main>
+    <main class="main">
       <article class="article">アーティクル</article>
     </main>
 
-    <footer>
-      フッター
+    <footer class="l-footer">
+      <nav class="p-footer-navigation">
+        <ul class="p-footer-navigation__list">
+          <li class="p-footer-navigation__item">
+            <a class="p-footer-navigation__link" href="#">フッターリストアイテム</a>
+          </li>
+          <li class="p-footer-navigation__item">
+            <a class="p-footer-navigation__link" href="#">フッターリストアイテム</a>
+          </li>
+          <li class="p-footer-navigation__item">
+            <a class="p-footer-navigation__link" href="#">フッターリストアイテム</a>
+          </li>
+        </ul>
+      </nav>
     </footer>
     <script type="module" src="./src/js/main.js"></script>
   </body>

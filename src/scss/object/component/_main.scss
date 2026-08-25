@@ -1,6 +1,6 @@
-@use '../../variables';
+@use '../../foundation/variables' as *;
 
 /* メインコンテンツ */
 .main {
-  padding: 16px;
+  flex: 1;
 }
